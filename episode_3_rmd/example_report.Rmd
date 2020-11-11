@@ -1,0 +1,64 @@
+---
+title: "Example Report"
+author: "Abigail ter Kuile"
+date: "11/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+```
+
+
+```{r }
+x <- rnorm(2)
+
+for(i in 1:length(x)){
+  print(x[[i]])
+}
+```
+```{r}
+x <- rbeta (1000, 5, 2)
+
+```
+the mean of the observation is `r mean(x)`
+
+# **Old faithful reproducibility exercise** 
+
+# Introduction
+The Old Faithful data set contains the waiting time between eruptions and the duration of the eruption for the Old Faithful geyser in Yellowstone National Park, Wyoming, USA.
+
+First load the data:
+```{r}
+df <- faithful
+```
+
+The data description is given in the table below.
+
+| variable | description | 
+| - | - |
+| eruptions | the duration of the eruption, minutes |
+| waiting | waiting time to next eruption, minutes | 
+
+
+```{r}
+summary (df)
+```
+
+The marginal distributions of the variables shown below:
+```{r}
+hist(df$eruptions)
+```
+```{r}
+hist(df$waiting)
+```
+
+
+```{r}
+scatter.smooth(df$eruptions, df$waiting)
+```
+
