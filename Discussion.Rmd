@@ -1,0 +1,14 @@
+---
+title: "discussion"
+author: "Abigail ter Kuile"
+date: "11/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Methods
+## This is the first draft discussion of the paper 
+
+Using open science framework
