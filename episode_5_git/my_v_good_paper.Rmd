@@ -20,3 +20,7 @@ summary(df)
 hist(df$eruptions, df$waiting)
 ```
 
+```{r}
+barplot(df$eruptions, df$waiting)
+```
+
