@@ -24,3 +24,7 @@ hist(df$eruptions, df$waiting)
 barplot(df$eruptions, df$waiting)
 ```
 
+```{r}
+scatter.smooth(df$eruptions, df$waiting)
+```
+
