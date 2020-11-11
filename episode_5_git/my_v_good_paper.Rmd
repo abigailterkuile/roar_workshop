@@ -10,6 +10,8 @@ making new introduction notes
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+###methods
+analyses below 
 ```{r}
 x <- df$eruptions
 ```
