@@ -16,3 +16,7 @@ x <- df$eruptions
 ```{r}
 summary(df)
 ```
+```{r}
+hist(df$eruptions, df$waiting)
+```
+
